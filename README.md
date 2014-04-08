@@ -5,7 +5,7 @@ Login and Password should be passed at every api request.
  
 Example of API request:  http://dizzcloud.com/api/getuploadurl/apitest@dizzcloud.com/testpassword
 
-HTTP CODES
+JSON CODE RESPONCES
 ```
 200 - Request successful
 400 - Bad request (not correct request params)
