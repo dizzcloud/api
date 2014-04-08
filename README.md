@@ -1,11 +1,9 @@
-All request parameters must be encoded to JSON and sent using the POST method
+All request parameters must be sent using the POST method
 All methods return operation status (success, fail) and additional data in JSON
 Login and Password should be passed at every api request.
 
-API base url:  http://dizzcloud.com/api/
-API request consist from base url +  action + $user + $password
-
-Example:  http://dizzcloud.com/api/getuploadurl/apitest@dizzcloud.com/testpassword
+ 
+Example of API request:  http://dizzcloud.com/api/getuploadurl/apitest@dizzcloud.com/testpassword
 
 HTTP CODES
 ```
