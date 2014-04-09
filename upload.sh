@@ -55,7 +55,7 @@ checkStatus "$resUpload" "Uploading file to server"
 
 #get  file link
 link=$(echo "$resUpload" | jq -r ".link")
-echo "Upload link: $link"
+echo "Uploaded link: $link"
 
 
 # Delete temporary file
